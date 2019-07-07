@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/backstage.css">
+</head>
+<body>
+<div class="head">
+    <div id="left_head"><span>轻阅1.0管理系统</span></div>
+    <div id="right_head"><span>admin</span></div>
+</div>
+<div class="keep_left">
+    <ul>
+        <li>首页
+        <ul class="fu">
+            <li></li>
+        </ul></li>
+        <li>系统设置
+        <ul class="fu">
+            <li>系统日志</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></li>
+        <li>文章管理
+        <ul class="fu">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></li>
+        <li>用户管理
+        <ul class="fu">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        </li>
+    </ul>
+</div>
+<div class="keep_right">
+    <div class="right_top">
+        <div class="right_add">
+            <input type="button" value="+添加窗口">
+        </div>
+    </div>
+    <div class="right_middle">
+            <div class="option_one"><label for="lujin">接口路径：</label><input type="text"id="lujin"></div>
+            <div class="option_one"><label for="mingcheng">接口名称：</label><input type="text"id="mingcheng"></div>
+            <div class="option_one"><label for="fangfa" >请求方法：</label>
+                <select id="fangfa">
+                    <option>全部</option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+            <div class="option_one"><label for="mokuai" >服务模块：</label>
+                <select id="mokuai">
+                    <option>全部</option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+
+        <div class="seek"><input type="button" value="搜索"></div>
+    </div>
+    <div class="right_descend ">
+        <div class="biaoge">
+        <table border="1">
+            <tr>
+                <td>接口编号</td>
+                <td>接口名称</td>
+                <td>接口路径</td>
+                <td>接口方法</td>
+                <td>接口服务模块</td>
+                <td>操作</td>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>登录</td>
+                <td>/login</td>
+                <td>POST</td>
+                <td>用户模块</td>
+                <td><input type="button"value="删除"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>注册</td>
+                <td>/create</td>
+                <td>POST</td>
+                <td>用户模块</td>
+                <td><input type="button"value="删除"></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
